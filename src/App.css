@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  display: flex; /* Kartları yan yana hizalamak için üst öğeye flex ekleyin */
+  justify-content: center; /* Kartları yatayda ortalar */
+  gap: 15px; /* Kartlar arasına boşluk ekler */
+}
+
+.card {
+  width: 200px; /* Kart genişliğini px veya % gibi birimlerle ayarlayın */
+  height: fit-content;
+  background-color: gray;
+  display: flex;
+  flex-direction: column; /* İçerik düzeni için column yapısı */
+  justify-content: center; /* İçerikleri ortalar */
+  align-items: center; /* İçerikleri yatayda ortalar */
+}
+.cards-container{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.selectDiv {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 80px;
+}
